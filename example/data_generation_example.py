@@ -1,8 +1,3 @@
-"""
-示例：使用 Pipeline 生成数据
-这个示例展示了如何使用 Pipeline 类生成数据，并演示了参数覆盖功能
-"""
-
 import sys
 import os
 

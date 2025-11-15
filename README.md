@@ -1,8 +1,7 @@
 # Agent
 
 > [!IMPORTANT]
-> To build, and to use.
-> The Agent Factory
+> The Agent Factory, to build and to use.
 
 ## Introduction
 
@@ -38,3 +37,30 @@
 
 > More will be added in the future.
 
+## Modules
+
+> [!IMPORTANT]
+> 这一部分会经常更新！欢迎 PR
+
+- `data_generation`: 合成数据
+    - 基本的 AI 合成数据（模型蒸馏）
+    - 更加 advanced 的轨迹合成数据
+        - MCP Tool Calling
+        - Multi-turn data generation
+        - Multi-agent data generation
+- `agent`: 基本的 Agent
+    - **Less is More**: We just need the simplest agent!
+    - Multi-turn chat
+    - Inner Memory and Reasoning
+    - Outer Tool Calling and MCP
+    - Interactions with multi-agents
+- `environment`: Agent Interactions with the environment
+    - Coding Environment
+    - Searching Environment
+- `evaluation`:
+    - simple scripts for agent evaluations
+
+## Todo List
+
+- build and simple agent interactions
+    - 关键在于明确简洁的接口
